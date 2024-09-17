@@ -1,11 +1,9 @@
 function App(): JSX.Element {
   return (
-    <>
-      <h1>Hi Guys!</h1>
-      <p>Here is a paragraph of Electron for to show on screen</p>
-      <button>Click Me</button>
-    </>
+    <div className="flex h-full items-center justify-center bg-blue">
+      <span className="text-4xl text-red-500">Hello from Electron</span>
+    </div>
   )
 }
 
-export default App;
+export default App
